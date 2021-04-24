@@ -11,7 +11,7 @@ const config = {
   ],
   moduleNameMapper: {
     '^.+\\.(svg|(sa|sc|c)ss)$': 'identity-obj-proxy',
-    '@(components|services)/(.*)$': '<rootDir>/src/$1/$2',
+    '@(components|services|hooks)/(.*)$': '<rootDir>/src/$1/$2',
   },
   testEnvironment: 'jest-environment-jsdom-sixteen',
   testPathIgnorePatterns: [
